@@ -11,4 +11,4 @@ df = pd.read_csv(caminho_downloads, sep=';', encoding='utf-8')
 df['link'] = 'https://' + df['nome']
 
 # Salva apenas a coluna de links em Parquet
-df[['link']].to_parquet('sites_gov_br.parquet', index=False)
+df[['link']].to_parquet('~/Downloads/sites_gov_br.parquet', index=False)
