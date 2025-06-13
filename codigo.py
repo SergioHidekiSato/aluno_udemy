@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Caminho para a pasta Downloads do usuário atual
-caminho_downloads = os.path.expanduser('~/Downloads/dominios.csv')
+caminho_downloads = os.path.expanduser('~/Downloads/dominios_gov_br.csv')
 
 # Carrega o CSV
 df = pd.read_csv(caminho_downloads, sep=';', encoding='utf-8')
