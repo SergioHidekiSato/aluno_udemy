@@ -12,3 +12,5 @@ df['link'] = 'https://' + df['nome']
 
 # Salva apenas a coluna de links em Parquet
 df[['link']].to_parquet('~/Downloads/sites_gov_br.parquet', index=False)
+
+#teste
